@@ -1,0 +1,35 @@
+{
+  "name": "react-native-rating-stars",
+  "version": "1.0.0",
+  "description": "This is a package for simplify react native stars process",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react-native",
+    "rating",
+    "stars",
+    "rating-stars"
+  ],
+  "bugs": {
+    "url": "https://github.com/mostafijur-rahman299/react-native-rating-stars/issues"
+  },
+  "dependencies": {
+    "react-native-vector-icons": "^9.2.0"
+  },
+  "peerDependencies": {
+    "react": "18.1.0",
+    "react-native": "0.70.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "metro-react-native-babel-preset": "^0.70.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mostafijur-rahman299/react-native-rating-stars"
+  },
+  "author": "mahmudsajib",
+  "license": "ISC"
+}
