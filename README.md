@@ -21,10 +21,14 @@ Istallation Resource: https://github.com/oblador/react-native-vector-icons#insta
 
 ## Usages
 
-#### For giving star
+#### Example 01 (Show as well as get give rating)
 
 ```js
-import RatingStar from "react-native-rating-stars";
+import RatingStar from "react-native-rating-stars"
+
+const getRatingNumber = (ratingNumber) => {
+  console.log(ratingNumber)
+}
 
 <RatingStar
   numberOfStar={5}
@@ -32,15 +36,16 @@ import RatingStar from "react-native-rating-stars";
   color="#006994"
   size={20}
   isClickable={true}
-/>;
+  getRatingNumber={getRatingNumber}
+/>
 ```
 
-#### Display
+#### Example 02 (Only show rating)
 
 ```js
-import RatingStar from "react-native-rating-stars";
+import RatingStar from "react-native-rating-stars"
 
-<RatingStar numberOfStar={5} ratingState={3} color="#006994" size={20} />;
+<RatingStar numberOfStar={5} ratingState={3} color="#006994" size={20} />
 ```
 
 ## Props
@@ -52,6 +57,7 @@ import RatingStar from "react-native-rating-stars";
 | **`color`**        | string  | color of star like 'red' or color code or rgba etc | No       | `#006994` |
 | **`size`**         | int     | size of stars                                      | No       | `25`      |
 | **`isClickable`**  | boolean | want to give star                                  | No       | `false`   |
+| **`getRatingNumber`**  | function | get gave rating number                                  | No       | `null`   |
 
 ## Contributing
 
