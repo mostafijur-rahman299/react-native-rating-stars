@@ -19,6 +19,8 @@ npm install react-native-rating-stars --save
 #### For giving star
 
 ```js
+   import RatingStart from 'react-native-rating-stars'
+
    <RatingStart
       numberOfStar={5}
       ratingState={3}
@@ -31,6 +33,8 @@ npm install react-native-rating-stars --save
 #### Display
 
 ```js
+   import RatingStart from 'react-native-rating-stars'
+
    <RatingStart
       numberOfStar={5}
       ratingState={3}
